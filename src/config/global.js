@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Gestión del talento humano según estructura organizacional',
+    descripcionCurso:
+      'En el presente componente se abordarán aspectos relevantes del proceso de gestión humana, desde aspectos conceptuales y su aplicabilidad en organizaciones deportivas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,27 +33,55 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estructura organizacional',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Organigrama organizacional',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Perfil de cargo y manual de funciones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Aplicación del programa de gestión de talento humano',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Liderazgo organizacional',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Estrategias en dirección en la gestión del talento humano',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Sistema de gestión en seguridad y salud en el trabajo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Sistema de gestión ambiental',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        numero: '9',
+        titulo: 'Sistema de Gestión de Calidad',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +132,63 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Estructura organizacional',
+      referencia:
+        'Project Management Institute. (2021). <em>Guía de los fundamentos para la dirección de proyectos</em> (7.a ed.). Guía del PMBOK.',
+      tipo: 'Libro',
+      link: 'https://we-educacion.com/pmbok',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Sistema de gestión en seguridad y salud en el trabajo',
+      referencia: 'Ministerio del trabajo. (2015). Decreto 1072 de 2015.',
+      tipo: 'Decreto',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
+    },
+    {
+      tema: 'Sistema de gestión en seguridad y salud en el trabajo',
+      referencia: 'Ministerio del trabajo (2019). Resolución 312 de 2019.',
+      tipo: 'Resolución',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Auditorías de calidad',
+      significado:
+        'proceso estructurado e independiente para determinar si las actividades del proyecto cumplen las políticas, los procesos y los procedimientos de la organización.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Ciclo PHVA',
+      significado:
+        'metodología para el mejoramiento de la calidad basada en el ciclo: planear, hacer, verificar y actuar.',
+    },
+    {
+      termino: 'Gestión',
+      significado:
+        'proceso que comprende determinadas funciones y actividades organizativas que los gestores deben llevar a cabo, con el fin de lograr los objetivos y metas deseadas.',
+    },
+    {
+      termino: 'Inspección',
+      significado:
+        'medición para verificar si una actividad, producto o servicio cumple con los requisitos específicos.',
+    },
+    {
+      termino: 'Lecciones aprendidas',
+      significado:
+        'conocimiento adquirido durante un proyecto, el cual muestra cómo se abordaron o deberían abordarse en el futuro los eventos del proyecto, con el fin de mejorar el desempeño.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Montoya, I. (2009). La formación de la estrategia en mintzberg y las posibilidades de su aportación para el futuro.',
+      link: 'https://www.redalyc.org/articulo.oa?id=90913042002',
+    },
+    {
+      referencia:
+        'PMI, Project Management Institute. (2008). <em>Organizational Project Management Maturity Model</em>. Project Management Institute.',
       link: '',
     },
   ],
@@ -135,15 +197,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -151,10 +213,43 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto temático',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +257,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseñador web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -191,22 +292,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

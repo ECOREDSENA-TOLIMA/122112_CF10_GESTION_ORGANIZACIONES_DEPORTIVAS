@@ -1,4 +1,4 @@
-# **sena-base-2021 v6.2.1**
+# **Gestión del talento humano según estructura organizacional**
 
 ## **Enlace GitHubPages**
 
