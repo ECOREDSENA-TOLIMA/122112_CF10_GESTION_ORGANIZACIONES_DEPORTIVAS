@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF10_122112_GESTION_ORGANIZACIONES_DEPORTIVAS/#/](https://ecored-bogota-dc.github.io/CF10_122112_GESTION_ORGANIZACIONES_DEPORTIVAS/#/)
 
 #
 
