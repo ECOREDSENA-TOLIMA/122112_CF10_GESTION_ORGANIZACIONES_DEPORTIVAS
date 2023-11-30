@@ -150,4 +150,6 @@ export default {
 .imageninfografica2.img-infografica.color-primario .img-infografica__item__numero, .img-infografica-b.color-primario .img-infografica__item__numero
   color: #727997
   font-size: 25px
+.lista-ol--separador li, .lista-ul--separador li
+  border-style: dotted
 </style>

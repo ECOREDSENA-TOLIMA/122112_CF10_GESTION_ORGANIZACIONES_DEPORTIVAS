@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
-      h1 
+      h1 Sistema de gestión en seguridad y salud en el trabajo
     
     
 
