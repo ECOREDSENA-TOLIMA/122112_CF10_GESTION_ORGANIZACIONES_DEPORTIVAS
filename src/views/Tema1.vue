@@ -95,17 +95,17 @@
     p.mt-5(data-aos="fade-right") La estructura organizacional según MINTZBERG (2005), es el conjunto de todas las formas en las que se divide el trabajo en tareas distintas, consiguiendo luego la coordinación de las mismas. Las organizaciones se estructuran para ser más eficientes, para alcanzar sus objetivos y responder a las necesidades del mercado y así mismo, definen las políticas empresariales para aprovechar las oportunidades que brinda el entorno, de acuerdo con sus capacidades y recursos. Para la estructuración organizacional se deberá tener en cuenta lo siguiente:
 
     .row.mt-5.justify-content-center
-      .col-md-8.col-lg.mb-4.mb-lg-0
+      .col-md-8.col-lg.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta-numerada.color-acento-contenido.p-5.h-100(style="box-shadow:0px 3px 15px rgba(0,0,0,.1);")
           .tarjeta-numerada__numero
             .h2(style="color:initial;") 1
           p.text-center.mb-0 Ubicación de tareas especializadas por medio de la agrupación del personal en equipos, procesos, áreas o departamentos según la empresa.
-      .col-md-8.col-lg.mb-4.mb-lg-0
+      .col-md-8.col-lg.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta-numerada.color-acento-botones.p-5.h-100(style="box-shadow:0px 3px 15px rgba(0,0,0,.1);")
           .tarjeta-numerada__numero
             .h2.text-white 2
           p.text-center.mb-0 Relaciones de subordinación según la toma de decisiones, niveles de jerarquía y alcance de la supervisión y control.
-      .col-md-8.col-lg.mb-4.mb-lg-0
+      .col-md-8.col-lg.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta-numerada.color-primario.p-5.h-100(style="box-shadow:0px 3px 15px rgba(0,0,0,.1);")
           .tarjeta-numerada__numero
             .h2.text-white 3
@@ -207,7 +207,7 @@
         p.mb-0 Al definir la estructura organizacional, la empresa deberá decidir el grado y delegación de la responsabilidad, lo cual implica, indicar si la organización es centralizada (cuando la toma de decisiones es absolutamente a cargo del director o descentralizada cuando los niveles más bajos del organigrama se les incrementa la autonomía y responsabilidad al asignarle la posibilidad de tomas de decisiones a su nivel), es decir, si todas las decisiones se centran en alta dirección, esto acarreará altos niveles de carga para este departamento. Si se asignan niveles de responsabilidad a otros niveles la alta dirección podrá evitar la pérdida de tiempo en decisiones rutinarias que se pueden delegar y se podrá dedicar a acciones en las que realmente sí es imprescindible. 
     
     .col-xl-11.m-auto.col-lg-9.mt-5
-      .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:9px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
+      .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:5px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
         p.mb-0.text-center Según la guía de dirección de proyectos PMBOK existen nuevas tendencias en estructuración organizacional, indicando las siguientes características:
     
     SlyderF.mt-5(columnas="col-lg-6 col-xl-4")
