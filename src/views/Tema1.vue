@@ -123,7 +123,7 @@
 
     .col-xl-7.m-auto.col-lg-9.mt-5
       .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:9px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
-        p.mb-0.text-center Por consiguiente, se presentan los pasos a seguir para definir la estructura organizacional:
+        p.mb-0 Por consiguiente, se presentan los pasos a seguir para definir la estructura organizacional:
     .col-xl-9.m-auto.col-lg-10.mt-5(data-aos="zoom-in-up")
       figure.mt-5
         img(src="@/assets/curso/tema1/7.svg")

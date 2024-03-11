@@ -17,3 +17,46 @@
 
   100%
     transform: translateY(0px)
+  
+.banner-principal__row .banner-principal__img
+  width: 34%
+
+.BG05
+  background-color: #FE502D
+
+.BG06
+  background-color: #2D54FE
+
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -80%
+    @media (max-width: $bp-max-md)
+        bottom: -76%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -30%
+      @media (max-width: $bp-max-xl)
+        bottom: -20%
+      @media (max-width: $bp-max-sm)
+        bottom: -15%
+      @media (max-width: $bp-max-xs)
+        bottom: 0
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+    
+.tsmall
+  @media (max-width: $bp-max-xs)
+    font-size: small

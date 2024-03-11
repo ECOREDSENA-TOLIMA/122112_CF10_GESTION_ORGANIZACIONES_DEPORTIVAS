@@ -53,7 +53,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-right")
       h5 Tabla 1. 
-      span Estándares mínimos Resolución 312 de 2019 
+      i Estándares mínimos Resolución 312 de 2019 
     
     .tabla-a.color-acento-contenido.mt-5(data-aos="zoom-in-up") 
       table

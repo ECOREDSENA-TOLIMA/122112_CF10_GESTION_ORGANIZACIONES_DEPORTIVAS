@@ -30,8 +30,6 @@ export default {
 <style lang="sass">
 .banner-interno
   height: 160px
-.banner-interno__fondo
-  background-image: url(assets/curso/fondo_tema.png) !important
 .banner-principal .tarjeta
   background-position: inherit !important
 .titulo-principal__numero

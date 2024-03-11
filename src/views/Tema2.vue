@@ -48,11 +48,11 @@
             img(src="@/assets/curso/tema2/4.svg")
     
     .row.mt-5
+      p Asimismo, existen dos tipos de estructuras, anchas y altas:
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema2/5.png")
       .col-lg-8(data-aos="fade-left")
-        p Asimismo, existen dos tipos de estructuras, anchas y altas:
         .row.mt-5.justify-content-center.mt-4
           .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
             .h-100
@@ -74,7 +74,7 @@
                 .col.ps-0
                   .h-100.p-4.d-flex.flex-wrap.align-content-center(style="background-color:#F6F6F6;box-shadow:0px 3px 10px rgba(0,0,0,.12);border-radius:0px 10px 10px 0px;")
                     h5.mb-0 Estructura ancha
-        p.mt-5 Después de tener claridad de la estrategia organizacional se procede a seguir los siguientes pasos para la construcción del organigrama: 
+      p.mt-5 Después de tener claridad de la estrategia organizacional se procede a seguir los siguientes pasos para la construcción del organigrama: 
 
     .cont_2_1.mt-5.pt-5.pb-5
       .col-xl-10.m-auto
@@ -91,7 +91,7 @@
           .tarjeta.color-acento-botones.p-4.text-white(x="88%" y="77%" numero="+" style="background-color:#F6F6F6;")
             p.mb-0(style="color:initial !important;") Definir líneas de comunicación entre cada uno de los niveles de la organización. 
     
-    p.mt-5.text-center(data-aos="zoom-in") Teniendo en cuenta la información anterior, a continuación, se muestra un ejemplo de diferentes tipos de organigramas.
+    p.mt-5(data-aos="zoom-in") Teniendo en cuenta la información anterior, a continuación, se muestra un ejemplo de diferentes tipos de organigramas.
 
     .row.mt-5
       .col-lg.mb-4.mb-lg-0(data-aos="zoom-in")

@@ -42,7 +42,7 @@ export default {
       {
         titulo: 'Descripción del cargo ',
         texto:
-          'Definición del puesto de trabajo y su rol con la organización.<br><br><strong>Ejemplo:</strong>  Entrenador deportivo.',
+          'Definición del puesto de trabajo y su rol con la organización.<br><br><strong>Ejemplo:</strong>  entrenador deportivo.',
         imagen: require('@/assets/curso/tema3/2.png'),
       },
       {
@@ -90,7 +90,7 @@ export default {
       {
         titulo: 'Condiciones de trabajo',
         texto:
-          'Conjunto de factores del medio laboral que actúan sobre el trabajador, como lo son:<br>br>Ambiente físico: ventilación, climatización, temperatura, ruido, iluminación; biológicos: virus, bacterias, hongos, enfermedades transmisibles; exposición a agentes químicos; cargas ergonómicas, riesgos de seguridad y riesgos psicosociales.<br><br><strong>Ejemplo:</strong> Ejemplo: exposición a altos ritmos de trabajo, conflictos interpersonales, exposición a cambios constantes de clima al trabajar a la intemperie, iluminación excesiva y sobresfuerzo de la voz.',
+          'Conjunto de factores del medio laboral que actúan sobre el trabajador, como lo son:<br>br>Ambiente físico: ventilación, climatización, temperatura, ruido, iluminación; biológicos: virus, bacterias, hongos, enfermedades transmisibles; exposición a agentes químicos; cargas ergonómicas, riesgos de seguridad y riesgos psicosociales.<br><br><strong>Ejemplo:</strong> exposición a altos ritmos de trabajo, conflictos interpersonales, exposición a cambios constantes de clima al trabajar a la intemperie, iluminación excesiva y sobresfuerzo de la voz.',
         imagen: require('@/assets/curso/tema3/10.png'),
       },
     ],

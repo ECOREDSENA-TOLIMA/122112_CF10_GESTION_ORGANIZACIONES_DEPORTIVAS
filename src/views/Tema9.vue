@@ -16,7 +16,7 @@
     
     p.mt-4(data-aos="fade-right") La calidad según la ISO 9000 la define como la totalidad de rasgos o características de un producto o servicio que llevan en sí la capacidad de satisfacer las necesidades explícitas o implícitas. Por ende, la gestión de calidad incluye todos los procesos y actividades de la organización, estableciendo políticas, objetivos, responsabilidades de calidad para satisfacer las necesidades que exige el cliente, y para ello, se puede trabajar a partir de enfoques modernos como lo son:
     
-    .cont_9_1.mt-5
+    .cont_9_1.my-5
       .col-xl-10.m-auto(data-aos="zoom-in-up")
         figure
           img(src="@/assets/curso/tema9/3.svg")
@@ -25,33 +25,39 @@
         .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:5px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
           p.mb-0.text-center A continuación, se presenta la comparación de la calidad del pasado con la calidad de hoy:
     
-    .row.mt-5.justify-content-center(@mouseover="indicadorTarjetaFlip = false")
-      .col-lg.mb-4.md-lg-0.col-md-10
-        .crd_hover_txt(data-aos='flip-up')
+    
+    .row.justify-content-center.mb-5
+      .col-xl-6.col-lg-8.col-md-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/tema9/4.png' alt="")
-          .crd_hover_txt--body(style="background-color:#FE502D;")
-            h5.mb-3.text-white.text-center Calidad antes
-            ul.lista-ul--separador.mt-3.text-white.lista_custom_1.text-small.mb-0
-              li.d-flex.mb-1.text-white
-                i.fas.fa-angle-right.text-white
-                .text-white Inspección de cualquier cosa al final de la línea de producción para determinar si cumple las especificaciones.
-              li.d-flex.mb-1.text-white
-                i.fas.fa-angle-right.text-white
-                .text-white Establecimiento de metas estadísticas de conformidad.
-              li.d-flex.mb-0.text-white
-                i.fas.fa-angle-right.text-white
-                .text-white Arreglar (o desechar) los productos no conformes.
-      .col-lg.mb-4.md-lg-0.col-md-10
-        .crd_hover_txt(data-aos='flip-up')
-          .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/tema9/5.png' alt="")
-          .crd_hover_txt--body(style="background-color:#2D54FE;")
-            h5.mb-3.text-white.text-center Calidad ahora
-            ul.lista-ul--separador.mt-3.text-white.lista_custom_1.text-small.mb-0
+          img(src='@/assets/curso/tema9/4.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-sm-4.p-2
+            .title.d-flex.align-items-center.justify-content-center.mb-sm-4.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Calidad antes
+            ul.lista-ul--separador.mt-3.mb-0.tsmall
+              li.d-flex.mb-1
+                i.fas.fa-angle-right
+                | Inspección de cualquier cosa al final de la línea de producción para determinar si cumple las especificaciones.
+              li.d-flex.mb-1
+                i.fas.fa-angle-right
+                | Establecimiento de metas estadísticas de conformidad.
+              li.d-flex.mb-0
+                i.fas.fa-angle-right
+                | Arreglar (o desechar) los productos no conformes.
+      .col-xl-6.col-lg-8.col-md-10.mb-xl-0.mb-4(data-aos="fade-left")
+        .tarjetas-up(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          img(src='@/assets/curso/tema9/5.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG06.p-xl-4.p-lg-3.p-sm-4.p-2
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-sm-4.mb-3
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Calidad ahora
+            ul.lista-ul--separador.mt-3.text-white.lista_custom_1.mb-0.tsmall
               li.d-flex.mb-1.text-white
                 i.fas.fa-angle-right.text-white
                 .text-white Los requerimientos del cliente son la base de la calidad.
@@ -61,7 +67,7 @@
               li.d-flex.mb-0.text-white
                 i.fas.fa-angle-right.text-white
                 .text-white Los productos y los procesos se mejoran permanentemente.
-    
+
     p.mt-5(data-aos="fade-right") Los siguientes son los objetivos de la gestión de calidad:
 
     .row.mt-5.justify-content-center
