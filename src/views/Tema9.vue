@@ -14,12 +14,17 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La calidad es un término que ha venido evolucionando en el tiempo, pasando de la tendencia de proporcionar servicios y productos de calidad hacia la satisfacción de las demandas de calidad de los clientes. Son los clientes quienes definen si el servicio o producto cumple con sus expectativas de calidad, satisfaciendo sus necesidades y requerimientos.
     
-    p.mt-4(data-aos="fade-right") La calidad según la ISO 9000 la define como la totalidad de rasgos o características de un producto o servicio que llevan en sí la capacidad de satisfacer las necesidades explícitas o implícitas. Por ende, la gestión de calidad incluye todos los procesos y actividades de la organización, estableciendo políticas, objetivos, responsabilidades de calidad para satisfacer las necesidades que exige el cliente, y para ello, se puede trabajar a partir de enfoques modernos como lo son:
+    p.mt-4(data-aos="fade-right") La calidad según la ISO 9000, la define como la totalidad de rasgos o características de un producto o servicio que llevan en sí la capacidad de satisfacer las necesidades explícitas o implícitas. Por ende, la gestión de calidad incluye todos los procesos y actividades de la organización, estableciendo políticas, objetivos, responsabilidades de calidad para satisfacer las necesidades que exige el cliente, y para ello, se puede trabajar a partir de enfoques modernos como lo son:
     
     .cont_9_1.my-5
-      .col-xl-10.m-auto(data-aos="zoom-in-up")
-        figure
-          img(src="@/assets/curso/tema9/3.svg")
+      .col-xl-10.m-auto
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 5.
+          i Enfoques del sistema de gestión de la calidad 
+        figure.d-lg-flex.d-none(data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema9/3.svg" alt="En la Figura 5 se presentan los enfoques del sistema de gestión de la calidad, que incluyen cliente, prevención, mejora continua, dirección y costos.")
+        figure.d-lg-none.d-flex(data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema9/3a.svg" alt="En la Figura 5 se presentan los enfoques del sistema de gestión de la calidad, que incluyen cliente, prevención, mejora continua, dirección y costos.")
       br
       .col-xl-7.m-auto.col-lg-9.mt-5
         .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:5px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
@@ -85,7 +90,7 @@
         .tarjeta-numerada.color-primario.p-4.ps-5.h-100(style="box-shadow:0px 3px 15px rgba(0,0,0,.1);")
           .tarjeta-numerada__numero
             .h2.text-white 3
-          p.text-center.mb-0 Ser percibidos como exitosos desde el punto de vista de negocio 
+          p.text-center.mb-0 Ser percibidos como exitosos desde el punto de vista de negocio
     
     .cajon.color-primario.p-4.mt-5(style="background-color:#E0F4FE;" data-aos="flip-up")
       p.mb-0 #[strong La gestión de calidad según la norma ISO 10006:2003] incluye: planificar, organizar, realizar seguimiento, controlar, informar y tomar las decisiones correctivas pertinentes necesarias para alcanzar los objetivos de forma continua. En el siguiente recurso, podrás conocer los grupos de procesos para la gestión de la calidad:
@@ -401,50 +406,77 @@
     
     .row.mt-3(@click="indicadorTarjetaFlip2 = false")
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
-        .h-100.p-4(style="background-color:#F6F6F6;cursor:pointer;" @click="modal1 = true")
-          figure
+        .h-100.p-4(style="background-color:#F6F6F6")
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 6.
+            i Responsabilidad de la dirección
+          figure.mb-4
             img(src="@/assets/curso/tema9/27.svg")
-        .p-2(style="background-color:#2D54FE;")
-          p.mb-0.text-white.text-center.fw-bold Responsabilidad de la dirección
+          .mx-auto.d-lg-none.d-flex
+            a.boton.me-3.indicador__container(
+              :href="obtenerLink('/downloads/Responsabilidad_de_la_direccion.pdf')"
+              target="_blank"
+              type="application/pdf"
+              @mouseover="mostrarIndicador = false"
+            )
+              span Descargar
+              i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
+
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
-        .h-100.p-4(style="background-color:#F6F6F6;cursor:pointer;" @click="modal2 = true")
-          figure
+        .h-100.p-4(style="background-color:#F6F6F6")
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 7.
+            i Gestión de recursos
+          figure.mb-4
             img(src="@/assets/curso/tema9/28.svg")
-        .p-2(style="background-color:#FE502D;")
-          p.mb-0.text-white.text-center.fw-bold Gestión de recursos
+          .mx-auto.d-lg-none.d-flex
+            a.boton.me-3.indicador__container(
+              :href="obtenerLink('/downloads/Gestion_de_recursos.pdf')"
+              target="_blank"
+              type="application/pdf"
+              @mouseover="mostrarIndicador = false"
+            )
+              span Descargar
+              i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
+
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
-        .h-100.p-4(style="background-color:#F6F6F6;cursor:pointer;" @click="modal3 = true")
-          figure
+        .h-100.p-4(style="background-color:#F6F6F6")
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 8.
+            i Realización del producto o servicio
+          figure.mb-4
             img(src="@/assets/curso/tema9/29.svg")
-        .p-2(style="background-color:#FFCA00;")
-          p.mb-0.text-center.fw-bold Realización del producto / servicio
+          .mx-auto.d-lg-none.d-flex
+            a.boton.me-3.indicador__container(
+              :href="obtenerLink('/downloads/Realización_del_producto_o_servicio.pdf')"
+              target="_blank"
+              type="application/pdf"
+              @mouseover="mostrarIndicador = false"
+            )
+              span Descargar
+              i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
+
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
-        .h-100.p-4(style="background-color:#F6F6F6;cursor:pointer;" @click="modal4 = true")
-          figure
+        .h-100.p-4(style="background-color:#F6F6F6")
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 9.
+            i Medición de análisis y mejora
+          figure.mb-4
             img(src="@/assets/curso/tema9/30.svg")
-        .p-2(style="background-color:#12263F;")
-          p.mb-0.text-center.fw-bold.text-white Medición de análisis y mejora
-    
-    ModalA(:abrir-modal.sync="modal1")
-      .row.align-items-center
-        figure
-          img(src="@/assets/curso/tema9/27.svg")
-    ModalA(:abrir-modal.sync="modal2")
-      .row.align-items-center
-        figure
-          img(src="@/assets/curso/tema9/28.svg")
-    ModalA(:abrir-modal.sync="modal3")
-      .row.align-items-center
-        figure
-          img(src="@/assets/curso/tema9/29.svg")
-    ModalA(:abrir-modal.sync="modal4")
-      .row.align-items-center
-        figure
-          img(src="@/assets/curso/tema9/30.svg")
+          .mx-auto.d-lg-none.d-flex
+            a.boton.me-3.indicador__container(
+              :href="obtenerLink('/downloads/Medicion_de_analisis_y_mejora.pdf')"
+              target="_blank"
+              type="application/pdf"
+              @mouseover="mostrarIndicador = false"
+            )
+              span Descargar
+              i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
 
- 
-
-      
       
 </template>
 

@@ -12,7 +12,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema5/1.png")
       .col-lg-8(data-aos="fade-left")
-        p Liderazgo es la capacidad de establecer la dirección e influenciar y alinear a los demás hacia un mismo fin, motivándolos y comprometiéndolos hacia la acción y haciéndolos responsables por su desempeño. El liderazgo es entendido como cualidades de personalidad y capacidad que favorecen la guía y el control de otros individuos #[strong (Diccionario de Ciencias de la conducta, 1956)].
+        p Liderazgo es la capacidad de establecer la dirección e influenciar y alinear a los demás hacia un mismo fin, motivándolos y comprometiéndolos hacia la acción y haciéndolos responsables por su desempeño. El liderazgo es entendido como “cualidades de personalidad y capacidad que favorecen la guía y el control de otros individuos” #[strong (Diccionario de Ciencias de la conducta, 1956)].
         p.mt-4 Los constantes cambios que han sufrido las organizaciones producto de la tecnología, globalización, competencia, hace que las demandas organizacionales requieran de otro tipo de líderes, con una visión del mundo abierta al continuo cambio, que oriente a la organización en la consecución de las metas trazadas. El liderazgo basado en la comunicación fluida, orientación en equipo, estrategias visionarias, toma de decisiones permitiendo la participación, para que todos en una organización sepan de dónde vienen, dónde están y hacia dónde van.
     
     p.mt-4(data-aos="fade-right") La predisposición al cambio y capacidad de innovación permite orientar la empresa al continuo mejoramiento.  A continuación, se presentan algunas habilidades personales que debe poseer un líder:

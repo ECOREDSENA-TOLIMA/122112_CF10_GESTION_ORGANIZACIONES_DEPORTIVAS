@@ -12,7 +12,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema8/1.png")
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
-        p #[strong El sistema de gestión ambiental, según la ISO 14000], es un sistema estructurado de gestión que incluye la estructura organizativa, la planificación de las actividades, las responsabilidades, las prácticas, los procesos, los procedimientos y los recursos para desarrollar, implantar, llevar a efecto, revisar y mantener al día los compromisos en materia de protección ambiental de una empresa. El compromiso y responsabilidad no solo se limita con el ámbito organizacional sino como responsabilidad de todos los que habitamos en el planeta, de cuidar y proteger nuestros recursos. 
+        p #[strong El sistema de gestión ambiental, según la ISO 14001], es un sistema estructurado de gestión que incluye la estructura organizativa, la planificación de las actividades, las responsabilidades, las prácticas, los procesos, los procedimientos y los recursos para desarrollar, implantar, llevar a efecto, revisar y mantener al día los compromisos en materia de protección ambiental de una empresa. El compromiso y responsabilidad no solo se limita con el ámbito organizacional sino como responsabilidad de todos los que habitamos en el planeta, de cuidar y proteger nuestros recursos. 
         p.mt-4 Para su implementación, se debe determinar qué elementos se deben considerar para la organización en materia de protección ambiental para garantizar que el desarrollo de sus actividades no afecte negativamente el medio ambiente. Para que al interior de la empresa se pueda establecer el sistema de gestión ambiental se debe tener en cuenta los siguientes requisitos mínimos legales: 
     
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mt-5(data-aos="flip-up")
@@ -20,7 +20,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema8/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[strong La ISO 14000] es la norma ambiental internacional que establece los requisitos que debe cumplir cualquier organización que desee establecer, documentar, implantar, mantener y mejorar continuamente un sistema de gestión ambiental. Aplicable en organizaciones privadas o públicas, grandes, medianas y pequeñas y en cualquier sector. Se basa en dos elementos, la mejora continua y el cumplimiento legal. Y basado en esto, se centra en los siguientes elementos: 
+        p.mb-0 #[strong La ISO 14001] es la norma ambiental internacional que establece los requisitos que debe cumplir cualquier organización que desee establecer, documentar, implantar, mantener y mejorar continuamente un sistema de gestión ambiental. Aplicable en organizaciones privadas o públicas, grandes, medianas y pequeñas y en cualquier sector. Se basa en dos elementos, la mejora continua y el cumplimiento legal. Y basado en esto, se centra en los siguientes elementos: 
 
 
     .col-xl-10.m-auto.mt-5
@@ -63,7 +63,7 @@
     
     .col-xl-7.m-auto.col-lg-9.mt-5
       .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:5px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
-        p.mb-0.text-center A continuación, se presenta la documentación requerida para las empresas según la ISO 14000:
+        p.mb-0.text-center A continuación, se presenta la documentación requerida para las empresas según la ISO 14001:
     
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")

@@ -56,7 +56,7 @@
       i Estándares mínimos Resolución 312 de 2019 
     
     .tabla-a.color-acento-contenido.mt-5(data-aos="zoom-in-up") 
-      table
+      table(alt="En la Tabla 1 se muestran los estándares mínimos de la Resolución 0312 de 2019, conforme al número de trabajadores en Colombia.")
         caption.fw-normal(style="background-color:#E8E8E8;") #[strong Nota.] Adaptado de la Resolución 312 de 2019.
         thead
           tr.bg-white

@@ -150,7 +150,7 @@ export default {
       referencia: 'Ministerio del trabajo (2019). Resolución 312 de 2019.',
       tipo: 'Resolución',
       link:
-        'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
+        'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf',
     },
   ],
   glosario: [
@@ -183,13 +183,58 @@ export default {
   referencias: [
     {
       referencia:
+        'Daft, R. L. (2011). Teoría y diseño organizacional (10a ed.). Recuperado de',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w23309w/Teoria_Diseno_Organizacional.pdf  ',
+    },
+    {
+      referencia:
+        'Diccionario de Ciencias de la Conducta. (s.f.). Liderazgo. Recuperado de',
+      link:
+        'https://www.ucipfg.com/Repositorio/MAP/MAP2010-2011/MAP01/Semana1/Liderazgo.pdf  ',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (s.f.). Decreto 1072 de 2015. Recuperado de',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8  ',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019. Recuperado de',
+      link:
+        'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf ',
+    },
+    {
+      referencia: 'ICONTEC. (2015). NTC ISO 14001. Recuperado de',
+      link:
+        'https://www.ramajudicial.gov.co/documents/8957139/22744716/NORMA+14001+%281%29%281%29.pdf/c26b5d90-20ba-4af0-8e4a-3ae1c45315e2  ',
+    },
+    {
+      referencia:
+        'ICONTEC. (2015) NTC ISO 9000 Sistema de Gestión de la Calidad, fundamentos y vocabulario.',
+      link:
+        'https://www.ramajudicial.gov.co/documents/5454330/14491339/d2.+NTC+ISO+9000-2015.pdf/ccb4b35c-ee63-44b5-ba1e-7459f8714031 ',
+    },
+    {
+      referencia:
+        'Universidad Politécnica de Valencia. (2003). ISO 10006. Directrices para la calidad en la gestión de proyectos. Recuperado de',
+      link:
+        'https://victoryepes.blogs.upv.es/2014/10/21/la-norma-iso-10006-directrices-para-la-calidad-en-la-gestion-de-proyectos/ ',
+    },
+    {
+      referencia:
+        'Proyectum. (2014). Auditorias de calidad (PMBOK). Recuperado de',
+      link: 'https://proyectum.com/sistema/blog/auditorias-de-calidad/ ',
+    },
+    {
+      referencia:
         'Montoya, I. (2009). La formación de la estrategia en mintzberg y las posibilidades de su aportación para el futuro.',
       link: 'https://www.redalyc.org/articulo.oa?id=90913042002',
     },
     {
       referencia:
         'PMI, Project Management Institute. (2008). <em>Organizational Project Management Maturity Model</em>. Project Management Institute.',
-      link: '',
     },
   ],
   creditos: [
@@ -266,7 +311,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco',
+          nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -292,7 +337,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jorge Bustos Ortiz',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

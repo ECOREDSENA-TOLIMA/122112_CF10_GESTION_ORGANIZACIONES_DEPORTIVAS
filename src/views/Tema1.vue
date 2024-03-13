@@ -16,7 +16,7 @@
         p.mt-4 Toda empresa se caracteriza por tener objetivos (definidos o no), que persiguen un fin, sea económico, social u otro. Para el logro de estos objetivos requiere que exista una adecuada interacción, coordinación y sincronización de todos los elementos que la conforman. Además, deberá establecer mecanismos para buscar la eficacia y eficiencia organizacional en la producción de bienes o servicios orientados a satisfacer las necesidades del mercado.
 
     .cajon.color-primario.p-4.mt-4(style="background-color:#DFE5FF;" data-aos="flip-up")
-      p.mb-0 Asimismo, es importante tener en cuenta que existen diferentes tipos de empresa, según su tamaño, el dominio o propiedad de esta, su forma jurídica y según su actividad, como se muestra a continuación, en la siguiente infografía:
+      p.mb-0 Asimismo, es importante tener en cuenta que existen diferentes tipos de empresa, según su tamaño, el dominio o propiedad de esta, su forma jurídica y según su actividad, como se muestra a continuación:
     
     .cont_1_1.mt-5.pt-5.pb-5
       .col-xl-10.m-auto
@@ -24,7 +24,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/3.svg')
-          .tarjeta.color-acento-botones.p-4.text-white(x="12%" y="85%" numero="+" style="background-color:#12263F;")
+          .tarjeta.color-acento-botones.p-4.text-white(x="12%" y="80%" numero="+" style="background-color:#12263F;")
             .h5.mb-2 Según su tamaño
             ul.lista-ul.mb-0
               li.mb-2.d-flex
@@ -36,7 +36,7 @@
               li.mb-2.d-flex
                 i.fas.fa-angle-right
                 | Grandes empresas
-          .tarjeta.color-acento-botones.p-4.text-white(x="38%" y="85%" numero="+" style="background-color:#12263F;")
+          .tarjeta.color-acento-botones.p-4.text-white(x="38%" y="80%" numero="+" style="background-color:#12263F;")
             .h5.mb-2 Según su propiedad
             ul.lista-ul.mb-0
               li.mb-2.d-flex
@@ -48,7 +48,7 @@
               li.mb-2.d-flex
                 i.fas.fa-angle-right
                 div #[strong Mixtas:] propiedad compartida entre entidades públicas y particulares.
-          .tarjeta.color-acento-botones.p-4.text-white(x="63%" y="85%" numero="+" style="background-color:#12263F;")
+          .tarjeta.color-acento-botones.p-4.text-white(x="63%" y="80%" numero="+" style="background-color:#12263F;")
             .h5.mb-2 Según su forma jurídica
             ul.lista-ul.mb-0
               li.mb-2.d-flex
@@ -57,7 +57,7 @@
               li.mb-2.d-flex
                 i.fas.fa-angle-right
                 div #[strong Empresa social:] empresas con una estructura jurídica independiente, que puede incluir múltiples accionistas o socios.
-          .tarjeta.color-acento-botones.p-4.text-white(x="89%" y="85%" numero="+" style="background-color:#12263F;")
+          .tarjeta.color-acento-botones.p-4.text-white(x="89%" y="80%" numero="+" style="background-color:#12263F;")
             .h5.mb-2 Según su actividad
             ul.lista-ul.mb-0
               li.mb-2.d-flex
@@ -69,7 +69,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/4.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Además del concepto de empresa, es importante reconocer el término de organización. La organización según DAFT (1992) es una entidad social orientada hacia la consecución de metas, que se estructura deliberadamente en un sistema de actividades con límites perfectamente identificables. 
+        p.mb-0 Además del concepto de empresa, es importante reconocer el término de organización. La organización según DAFT (2011),  es una entidad social orientada hacia la consecución de metas, que se estructura deliberadamente en un sistema de actividades con límites perfectamente identificables.
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -125,8 +125,13 @@
       .p-2.text-white.mt-5(style="background-color:#12263F;border:5px white solid;border-radius:9px;box-shadow:0px 0px 15px rgba(0,0,0,.2);" data-aos="zoom-in-down")
         p.mb-0 Por consiguiente, se presentan los pasos a seguir para definir la estructura organizacional:
     .col-xl-9.m-auto.col-lg-10.mt-5(data-aos="zoom-in-up")
-      figure.mt-5
-        img(src="@/assets/curso/tema1/7.svg")
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+        h5 Figura 1.
+        i Definición de la estructura organizacional 
+      figure.d-lg-flex.d-none
+        img(src="@/assets/curso/tema1/7.svg" alt="En la Figura 1 se presentan los pasos para definir la estructura organizacional, que incluyen formular la estrategia, diseñar la estructura y determinar los objetivos.")
+      figure.d-lg-none.d-flex
+        img(src="@/assets/curso/tema1/7a.svg" alt="En la Figura 1 se presentan los pasos para definir la estructura organizacional, que incluyen formular la estrategia, diseñar la estructura y determinar los objetivos.")
     
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")

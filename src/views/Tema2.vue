@@ -38,14 +38,23 @@
     .col-xl-10.m-auto.mt-5
       .row.justify-content-center
         .col-xl-7.mb-5(data-aos="zoom-in")
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2.
+            i Organigrama según su contenido
           figure
-            img(src="@/assets/curso/tema2/2.svg")
+            img(src="@/assets/curso/tema2/2.svg" alt="En la Figura 2 se muestra la estructura de un organigrama según su contenido, incluyendo aspectos como la estructura, función e integración de puestos.")
         .col-xl-5.mb-5(data-aos="zoom-in")
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3.
+            i Organigrama según ámbito de aplicación
           figure
-            img(src="@/assets/curso/tema2/3.svg")
+            img(src="@/assets/curso/tema2/3.svg" alt="En la Figura 3 se presenta la estructura de un organigrama según su ámbito de aplicación, abarcando aspectos tanto generales como específicos.")
         .col-xl-8(data-aos="zoom-in")
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4.
+            i Organigrama según presentación
           figure
-            img(src="@/assets/curso/tema2/4.svg")
+            img(src="@/assets/curso/tema2/4.svg" alt="En la Figura 4 se presenta la estructura de un organigrama según su presentación, abarcando los tipos vertical, horizontal y mixtos.")
     
     .row.mt-5
       p Asimismo, existen dos tipos de estructuras, anchas y altas:
