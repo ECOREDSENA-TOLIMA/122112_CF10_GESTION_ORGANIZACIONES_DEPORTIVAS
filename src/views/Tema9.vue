@@ -411,7 +411,7 @@
             h5 Figura 6.
             i Responsabilidad de la dirección
           figure.mb-4
-            img(src="@/assets/curso/tema9/27.svg")
+            img(src="@/assets/curso/tema9/27.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
           .mx-auto.d-lg-none.d-flex
             a.boton.me-3.indicador__container(
               :href="obtenerLink('/downloads/Responsabilidad_de_la_direccion.pdf')"
@@ -429,7 +429,7 @@
             h5 Figura 7.
             i Gestión de recursos
           figure.mb-4
-            img(src="@/assets/curso/tema9/28.svg")
+            img(src="@/assets/curso/tema9/28.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
           .mx-auto.d-lg-none.d-flex
             a.boton.me-3.indicador__container(
               :href="obtenerLink('/downloads/Gestion_de_recursos.pdf')"
@@ -447,7 +447,7 @@
             h5 Figura 8.
             i Realización del producto o servicio
           figure.mb-4
-            img(src="@/assets/curso/tema9/29.svg")
+            img(src="@/assets/curso/tema9/29.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
           .mx-auto.d-lg-none.d-flex
             a.boton.me-3.indicador__container(
               :href="obtenerLink('/downloads/Realización_del_producto_o_servicio.pdf')"
@@ -465,7 +465,7 @@
             h5 Figura 9.
             i Medición de análisis y mejora
           figure.mb-4
-            img(src="@/assets/curso/tema9/30.svg")
+            img(src="@/assets/curso/tema9/30.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
           .mx-auto.d-lg-none.d-flex
             a.boton.me-3.indicador__container(
               :href="obtenerLink('/downloads/Medicion_de_analisis_y_mejora.pdf')"
