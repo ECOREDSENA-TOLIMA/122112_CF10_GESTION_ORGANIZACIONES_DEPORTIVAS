@@ -410,73 +410,37 @@
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 6.
             i Responsabilidad de la dirección
-          figure.mb-4
+          figure.d-lg-flex.d-none
             img(src="@/assets/curso/tema9/27.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
-          .mx-auto.d-lg-none.d-flex
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/Responsabilidad_de_la_direccion.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-
+          figure.d-lg-none.d-flex
+            img(src="@/assets/curso/tema9/27r.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 7.
             i Gestión de recursos
-          figure.mb-4
+          figure.d-lg-flex.d-none
             img(src="@/assets/curso/tema9/28.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
-          .mx-auto.d-lg-none.d-flex
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/Gestion_de_recursos.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-
+          figure.d-lg-none.d-flex
+            img(src="@/assets/curso/tema9/28r.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 8.
             i Realización del producto o servicio
-          figure.mb-4
+          figure.d-lg-flex.d-none
             img(src="@/assets/curso/tema9/29.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
-          .mx-auto.d-lg-none.d-flex
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/Realización_del_producto_o_servicio.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-
+          figure.d-lg-none.d-flex
+            img(src="@/assets/curso/tema9/29r.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
       .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 9.
             i Medición de análisis y mejora
-          figure.mb-4
+          figure.d-lg-flex.d-none
             img(src="@/assets/curso/tema9/30.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
-          .mx-auto.d-lg-none.d-flex
-            a.boton.me-3.indicador__container(
-              :href="obtenerLink('/downloads/Medicion_de_analisis_y_mejora.pdf')"
-              target="_blank"
-              type="application/pdf"
-              @mouseover="mostrarIndicador = false"
-            )
-              span Descargar
-              i.fas.fa-file-download
-              .indicador--click(v-if="mostrarIndicador")
-
+          figure.d-lg-none.d-flex
+            img(src="@/assets/curso/tema9/30r.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
       
 </template>
 
