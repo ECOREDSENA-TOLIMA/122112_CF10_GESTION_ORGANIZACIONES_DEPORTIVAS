@@ -170,8 +170,14 @@
                 ul.lista-ul--separador.mb-0
                   li.mb-2.d-flex
                     i.fas.fa-angle-right(style="color:#FE502D;")
-                    div(style="color:initial !important;") Identificación de posibles acciones preventivas y correctivas.
+                    div(style="color:initial !important;") Monitoreo de resultados específicos.
                   li.mb-2.d-flex
+                    i.fas.fa-angle-right(style="color:#FE502D;")
+                    div(style="color:initial !important;") Determinación de varianzas.
+                  li.mb-0.d-flex
+                    i.fas.fa-angle-right(style="color:#FE502D;")
+                    div(style="color:initial !important;") Identificación de posibles acciones preventivas y correctivas.
+                  li.mb-0.d-flex
                     i.fas.fa-angle-right(style="color:#FE502D;")
                     div(style="color:initial !important;") Retroalimentación a los procesos de aseguramiento.
                   li.mb-0.d-flex
@@ -251,7 +257,7 @@
           .col-lg-5
             figure.m-auto.col-7.col-md-7.col-lg-12
               img(src='@/assets/curso/tema9/14.png')
-      .py-4.py-md-5(titulo="Procesos para el aseguramiento de la calidad" :icono="require('@/assets/curso/tema9/15.svg')")
+      .py-4.py-md-5(titulo="Aseguramiento de la calidad" :icono="require('@/assets/curso/tema9/15.svg')")
         .row.p-4
           .col-lg-7.mb-4.mb-lg-0
             p Según la guía de dirección de proyectos PMBOK el aseguramiento de la calidad consiste en auditar los requisitos de calidad y los resultados de las mediciones de control de calidad, para asegurar que se utilicen las normas de calidad y las definiciones operacionales adecuadas.

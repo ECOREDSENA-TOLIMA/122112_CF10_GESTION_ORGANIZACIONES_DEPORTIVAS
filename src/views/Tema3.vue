@@ -20,22 +20,12 @@
 
     .cont_3_1.mt-5.pt-5.pb-5
       SlyderBCustom(:datos="datosSlyder1")
-
-
-
- 
-
-      
       
 </template>
 
 <script>
-import SlyderBCustom from '../components/SlyderBCustom.vue'
 export default {
   name: 'Tema3',
-  components: {
-    SlyderBCustom,
-  },
   data: () => ({
     indicadorTarjetaFlip: true,
     datosSlyder1: [
@@ -90,7 +80,7 @@ export default {
       {
         titulo: 'Condiciones de trabajo',
         texto:
-          'Conjunto de factores del medio laboral que actúan sobre el trabajador, como lo son:<br>br>Ambiente físico: ventilación, climatización, temperatura, ruido, iluminación; biológicos: virus, bacterias, hongos, enfermedades transmisibles; exposición a agentes químicos; cargas ergonómicas, riesgos de seguridad y riesgos psicosociales.<br><br><strong>Ejemplo:</strong> exposición a altos ritmos de trabajo, conflictos interpersonales, exposición a cambios constantes de clima al trabajar a la intemperie, iluminación excesiva y sobresfuerzo de la voz.',
+          'Conjunto de factores del medio laboral que actúan sobre el trabajador, como lo son:<br>Ambiente físico: ventilación, climatización, temperatura, ruido, iluminación; biológicos: virus, bacterias, hongos, enfermedades transmisibles; exposición a agentes químicos; cargas ergonómicas, riesgos de seguridad y riesgos psicosociales.<br><br><strong>Ejemplo:</strong> exposición a altos ritmos de trabajo, conflictos interpersonales, exposición a cambios constantes de clima al trabajar a la intemperie, iluminación excesiva y sobresfuerzo de la voz.',
         imagen: require('@/assets/curso/tema3/10.png'),
       },
     ],

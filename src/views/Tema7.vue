@@ -81,15 +81,15 @@
             td Plan anual de trabajo.
             td Plan anual de trabajo.
           tr
-            td 
+            td Evaluaciones médicas ocupacionales.
             td Evaluaciones médicas ocupacionales.
             td Evaluaciones médicas ocupacionales.
           tr
-            td 
+            td Matriz identificación de peligros, evaluación, valoración riesgos.
             td Matriz identificación de peligros, evaluación, valoración riesgos.
             td Matriz identificación de peligros, evaluación, valoración riesgos.
           tr
-            td 
+            td Medidas de control. 
             td Medidas de control. 
             td Medidas de control. 
           tr
