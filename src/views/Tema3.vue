@@ -19,7 +19,7 @@
       p.mb-0 El perfil de cargo describe en detalle las responsabilidades, funciones y tareas que debe desempeñar la persona en un determinado cargo, por lo que, deberá comprender los siguientes elementos:
 
     .cont_3_1.mt-5.pt-5.pb-5
-      SlyderBCustom(:datos="datosSlyder1")
+      SlyderB(:datos="datosSlyder1")
       
 </template>
 
