@@ -35,7 +35,15 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Proceso de despliegue de las competencias del negocio hasta los niveles operativos.
-          .text-small(numero="3" titulo="Programa de desarrollo de las capacidades y del potencial del talento humano de acuerdo con las competencias del negocio") 
+          .text-small(numero="3" titulo="Modelo de gestión por competencias para el desarrollo del talento humano") 
+            ul.lista-ul--separador.mb-0.mt-4
+              li.mb-2.d-flex
+                i.fas.fa-angle-right(style="color:#FE502D;")
+                div Gestión humana medida por los impactos en los objetivos estratégicos de la organización. 
+              li.mb-2.d-flex
+                i.fas.fa-angle-right(style="color:#FE502D;")
+                div  Desarrollo de los perfiles de trabajo definidos y alineados con las competencias del negocio.
+          .text-small(numero="4" titulo="Programa de desarrollo de las capacidades y del potencial del talento humano de acuerdo con las competencias del negocio") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -43,7 +51,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de aplicación de normas técnicas sectoriales para el desarrollo de competencias técnicas operativas.
-          .text-small(numero="4" titulo="Clima organizacional ") 
+          .text-small(numero="5" titulo="Clima organizacional ") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -54,7 +62,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de implementación del control de los riesgos que afectan la salud y seguridad del talento humano.
-          .text-small(numero="5" titulo="Responsabilidad social ") 
+          .text-small(numero="6" titulo="Responsabilidad social") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -65,6 +73,14 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Desarrollo del sistema de reconocimiento y retribución de la generación de ideas y sugerencias de mejora en el nivel operativo.
+          .text-small(numero="7" titulo="Fomento de la cultura organizacional de comunicación abierta, alto desempeño en el trabajo y alto compromiso de las personas") 
+            ul.lista-ul--separador.mb-0.mt-4
+              li.mb-2.d-flex
+                i.fas.fa-angle-right(style="color:#FE502D;")
+                div Desarrollo de una cultura de control y seguimiento periódico al logro de sus resultados Nivel de desarrollo del sistema de recompensas para el personal gerencial basado en el desempeño. 
+              li.mb-2.d-flex
+                i.fas.fa-angle-right(style="color:#FE502D;")
+                div Nivel de desarrollo del sistema de recompensas para el personal operativo basado en el desempeño.
       .col-lg-5(data-aos="fade-left")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/2.png")
