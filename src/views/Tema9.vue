@@ -410,43 +410,39 @@
     .cajon.color-primario.p-4.mt-5(style="background-color:#E0F4FE;" data-aos="flip-up")
       p.mb-0 Para garantizar el sistema de gestión de calidad es importante contar con los requerimientos mínimos legales para su implementación, los cuales se relacionan a continuación: 
     
-    .row.mt-3(@click="indicadorTarjetaFlip2 = false")
-      .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
+    .row.justify-content-center.mt-3(@click="indicadorTarjetaFlip2 = false")
+      .col-xl-8.col-lg-10.mb-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 6.
             i Responsabilidad de la dirección
-          figure.d-lg-flex.d-none
-            img(src="@/assets/curso/tema9/27.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
-          figure.d-lg-none.d-flex
-            img(src="@/assets/curso/tema9/27r.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
-      .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
+          figure
+            img.d-lg-flex.d-none(src="@/assets/curso/tema9/27.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
+            img.d-lg-none.d-flex(src="@/assets/curso/tema9/27r.svg" alt="En la Figura 6 se presentan las acciones que la dirección debe llevar a cabo, las cuales incluyen el compromiso, enfoque, política, planificación, responsabilidad y revisión por la dirección.")
+      .col-xl-8.col-lg-10.mb-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 7.
             i Gestión de recursos
-          figure.d-lg-flex.d-none
-            img(src="@/assets/curso/tema9/28.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
-          figure.d-lg-none.d-flex
-            img(src="@/assets/curso/tema9/28r.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
-      .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
+          figure
+            img.d-lg-flex.d-none(src="@/assets/curso/tema9/28.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
+            img.d-lg-none.d-flex(src="@/assets/curso/tema9/28r.svg" alt="En la Figura 7 se presentan los componentes que comprende la gestión de recursos, los cuales incluyen provisión, recursos humanos, infraestructura y ambiente de trabajo.")
+      .col-xl-8.col-lg-10.mb-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 8.
             i Realización del producto o servicio
-          figure.d-lg-flex.d-none
-            img(src="@/assets/curso/tema9/29.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
-          figure.d-lg-none.d-flex
-            img(src="@/assets/curso/tema9/29r.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
-      .col-lg-6.mb-5.mt-4(data-aos="zoom-in-up")
+          figure
+            img.d-lg-flex.d-none(src="@/assets/curso/tema9/29.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
+            img.d-lg-none.d-flex(src="@/assets/curso/tema9/29r.svg" alt="En la Figura 8 se presentan las actividades que intervienen en la realización de un producto o servicio, desde la planificación hasta el control y seguimiento.")
+      .col-xl-8.col-lg-10.mb-4(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#F6F6F6")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 9.
             i Medición de análisis y mejora
-          figure.d-lg-flex.d-none
-            img(src="@/assets/curso/tema9/30.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
-          figure.d-lg-none.d-flex
-            img(src="@/assets/curso/tema9/30r.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
+          figure
+            img.d-lg-flex.d-none(src="@/assets/curso/tema9/30.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
+            img.d-lg-none.d-flex(src="@/assets/curso/tema9/30r.svg" alt="En la Figura 9 se presentan las actividades que se deben llevar a cabo en la medición, análisis y mejora, las cuales incluyen generalidades, seguimiento, control, análisis y acciones.")
       
 </template>
 
