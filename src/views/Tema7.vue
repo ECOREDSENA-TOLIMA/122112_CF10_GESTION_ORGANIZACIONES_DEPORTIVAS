@@ -17,10 +17,10 @@
     br
     .p-4.p.lg-5.pt-lg-0.pt-0.mt-5(style="background-color:#F6F6F6;")
       .col-xl-8.m-auto.col-lg-10
-        .p-3(style="background-color:#12263F;border-radius:20px;position:relative;top:-40px;" data-aos="zoom-in-down")
+        .p-3(style="background-color:#12263F;border-radius:20px;position:relative;top:-20px;" data-aos="zoom-in-down")
           p.mb-0.text-white Para implementar un sistema de gestión en seguridad y salud en el trabajo es importante seguir una serie de requerimientos mínimos legales como lo son: 
 
-      .col-xl-10.m-auto.mt-5
+      .col-xl-10.m-auto.mt-lg-5.mt-0
         .row.bg-white.p-4.cont_numeral_1(style="border-radius:15px;position:relative;z-index:2;" data-aos="fade-right")
           .col-auto.ps-4.d-none.d-lg-block
             .h-100.p-5.d-flex.flex-wrap.align-content-center.text-center(style="background-color:#FFCA00;border-radius:0px 0px 15px 15px;height:150% !important;max-height:150% !important;position:relative;top:-40px;z-index:2;")

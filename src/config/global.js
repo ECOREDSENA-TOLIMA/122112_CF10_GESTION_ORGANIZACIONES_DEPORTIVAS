@@ -184,8 +184,6 @@ export default {
     {
       referencia:
         'Daft, R. L. (2011). Teoría y diseño organizacional (10a ed.). Recuperado de',
-      link:
-        'https://gc.scalahed.com/recursos/files/r161r/w23309w/Teoria_Diseno_Organizacional.pdf  ',
     },
     {
       referencia:
@@ -207,14 +205,10 @@ export default {
     },
     {
       referencia: 'ICONTEC. (2015). NTC ISO 14001. Recuperado de',
-      link:
-        'https://www.ramajudicial.gov.co/documents/8957139/22744716/NORMA+14001+%281%29%281%29.pdf/c26b5d90-20ba-4af0-8e4a-3ae1c45315e2  ',
     },
     {
       referencia:
         'ICONTEC. (2015) NTC ISO 9000 Sistema de Gestión de la Calidad, fundamentos y vocabulario.',
-      link:
-        'https://www.ramajudicial.gov.co/documents/5454330/14491339/d2.+NTC+ISO+9000-2015.pdf/ccb4b35c-ee63-44b5-ba1e-7459f8714031 ',
     },
     {
       referencia:
@@ -264,7 +258,7 @@ export default {
         {
           nombre: 'Paola Andrea Quintero Aguilar',
           cargo: 'Diseño instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',

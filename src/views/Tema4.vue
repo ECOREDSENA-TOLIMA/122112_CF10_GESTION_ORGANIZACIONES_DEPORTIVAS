@@ -17,11 +17,11 @@
           p.mb-0 El programa será conforme a las necesidades, características y recursos de la organización. A continuación, se presentan los elementos más relevantes que deberá cumplir el programa de gestión del talento humano.
     
     .row.mt-5
-      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        LineaTiempoD.color-secundario
-          .text-small(numero="1" titulo="Estructura organizacional enfocada al cumplimiento de los objetivos de la organización") 
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta BG07")
+          .row.mx-4.mx-auto(numero="1" titulo="Estructura organizacional enfocada al cumplimiento de los objetivos de la organización") 
             p.mt-3 Enfoque por gestión de procesos alineados a la estrategia organizacional. Desarrollo de un sistema de comunicaciones.
-          .text-small(numero="2" titulo="Objetivos estratégicos apalancados por los talentos de las personas") 
+          .row.mx-4.mx-auto(numero="2" titulo="Objetivos estratégicos apalancados por los talentos de las personas") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -35,7 +35,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Proceso de despliegue de las competencias del negocio hasta los niveles operativos.
-          .text-small(numero="3" titulo="Modelo de gestión por competencias para el desarrollo del talento humano") 
+          .row.mx-4.mx-auto(numero="3" titulo="Modelo de gestión por competencias para el desarrollo del talento humano") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -43,7 +43,7 @@
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div  Desarrollo de los perfiles de trabajo definidos y alineados con las competencias del negocio.
-          .text-small(numero="4" titulo="Programa de desarrollo de las capacidades y del potencial del talento humano de acuerdo con las competencias del negocio") 
+          .row.mx-4.mx-auto(numero="4" titulo="Programa de desarrollo de las capacidades y del potencial del talento humano de acuerdo con las competencias del negocio") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -51,7 +51,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de aplicación de normas técnicas sectoriales para el desarrollo de competencias técnicas operativas.
-          .text-small(numero="5" titulo="Clima organizacional ") 
+          .row.mx-4.mx-auto(numero="5" titulo="Clima organizacional ") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -62,7 +62,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de implementación del control de los riesgos que afectan la salud y seguridad del talento humano.
-          .text-small(numero="6" titulo="Responsabilidad social") 
+          .row.mx-4.mx-auto(numero="6" titulo="Responsabilidad social") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -73,7 +73,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Desarrollo del sistema de reconocimiento y retribución de la generación de ideas y sugerencias de mejora en el nivel operativo.
-          .text-small(numero="7" titulo="Fomento de la cultura organizacional de comunicación abierta, alto desempeño en el trabajo y alto compromiso de las personas") 
+          .row.mx-4.mx-auto(numero="7" titulo="Fomento de la cultura organizacional de comunicación abierta, alto desempeño en el trabajo y alto compromiso de las personas") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -81,17 +81,17 @@
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de desarrollo del sistema de recompensas para el personal operativo basado en el desempeño.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/2.png")
     
     .row.mt-5
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.mb-lg-0.mb-4(data-aos="fade-right")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/3.png")
       .col-lg-7(data-aos="fade-left")
-        LineaTiempoD.color-secundario
-          .text-small(numero="1" titulo="Objetivos estratégicos apalancados por los talentos de las personas") 
+        AcordionA(tipo="a" clase-tarjeta="tarjeta BG07")
+          .row.mx-4.mx-auto(numero="1" titulo="Objetivos estratégicos apalancados por los talentos de las personas") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -102,7 +102,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Nivel de implementación del control de los riesgos que afectan la salud y seguridad del talento humano.
-          .text-small(numero="2" titulo="Responsabilidad social ") 
+          .row.mx-4.mx-auto(numero="2" titulo="Responsabilidad social ") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -113,7 +113,7 @@
               li.mb-4.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 div Desarrollo del sistema de reconocimiento y retribución de la generación de ideas y sugerencias de mejora en el nivel operativo.
-          .text-small(numero="3" titulo="Fomento de la cultura organizacional de comunicación abierta, alto desempeño en el trabajo y alto compromiso de las personas ") 
+          .row.mx-4.mx-auto(numero="3" titulo="Fomento de la cultura organizacional de comunicación abierta, alto desempeño en el trabajo y alto compromiso de las personas ") 
             ul.lista-ul--separador.mb-0.mt-4
               li.mb-2.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")

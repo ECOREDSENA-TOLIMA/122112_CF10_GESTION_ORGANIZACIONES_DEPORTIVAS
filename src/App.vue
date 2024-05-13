@@ -28,8 +28,6 @@ export default {
 }
 </script>
 <style lang="sass">
-.banner-interno
-  height: 160px
 .banner-principal .tarjeta
   background-position: inherit !important
 .titulo-principal__numero
