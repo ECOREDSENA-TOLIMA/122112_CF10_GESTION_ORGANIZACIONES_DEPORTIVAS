@@ -237,13 +237,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
       ],
     },
@@ -252,47 +252,47 @@ export default {
       autores: [
         {
           nombre: 'Camilo Andrés Aramburo Parra',
-          cargo: 'Experto temático',
-          centro: 'Centro de servicios de salud- Regional Antioquia',
+          cargo: 'Experto Temático',
+          centro: 'Regional Antioquia. Centro de servicios de salud',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
-          cargo: 'Diseño instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          cargo: 'Diseño Instruccional',
+          centro: 'Regional Distrito Capital. Centro de Gestión Industrial',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesoría metodológica y pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          cargo: 'Asesoría Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo de desarrollo curricular',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander. Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Diseñadora y evaluadora instruccional',
+          cargo: 'Diseñadora y Evaluadora Instruccional',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación Instruccional',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Metodología para la formación virtual',
+          cargo: 'Metodología para la Formación Virtual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluación instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Evaluación Instruccional',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
       ],
     },
@@ -301,19 +301,19 @@ export default {
       autores: [
         {
           nombre: 'Jose Yobani Penagos Mora',
-          cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
         {
           nombre: 'Adriana Ariza Luque',
-          cargo: 'Animación y producción audiovisual',
+          cargo: 'Animación y Producción Audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -322,18 +322,18 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Validación de Recursos Educativos Digitales',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Validación de Recursos Educativos Digitales',
+          centro: 'Regional Tolima. Centro de Comercio y Servicios',
         },
       ],
     },
