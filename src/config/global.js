@@ -278,7 +278,7 @@ export default {
             'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Gloria Lida Alzate Suarez',
+          nombre: 'Gloria Lida Álzate Suarez',
           cargo: 'Adecuación Instruccional',
           centro:
             'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
