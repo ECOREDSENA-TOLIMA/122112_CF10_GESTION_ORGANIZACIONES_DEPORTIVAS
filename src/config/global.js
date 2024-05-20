@@ -183,7 +183,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Daft, R. L. (2011). Teoría y diseño organizacional (10a ed.). Recuperado de',
+        'Daft, R. L. (2011). Teoría y diseño organizacional (10a ed.).',
     },
     {
       referencia:
@@ -204,7 +204,7 @@ export default {
         'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf ',
     },
     {
-      referencia: 'ICONTEC. (2015). NTC ISO 14001. Recuperado de',
+      referencia: 'ICONTEC. (2015). NTC ISO 14001.',
     },
     {
       referencia:
@@ -278,7 +278,7 @@ export default {
             'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Gloria Lida Álzate Suarez',
+          nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuación Instruccional',
           centro:
             'Regional Distrito Capital. Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
